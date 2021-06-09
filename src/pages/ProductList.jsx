@@ -12,7 +12,6 @@ export default function ProductList() {
       setProducts(result.data.data)
     })
   }, [])
-
   return (
     <div>
       <Table celled>
