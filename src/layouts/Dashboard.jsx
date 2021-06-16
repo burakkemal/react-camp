@@ -19,7 +19,7 @@ export default function Dashboard() {
             <Route exact path="/" component={ProductList} />
             <Route exact path="/products" component={ProductList} />
             <Route exact path="/cart" component={CartDetail} />
-            <Route exact path="/products/:id" component={ProductDetail} />
+            <Route exact path="/products/:name" component={ProductDetail} />
           </GridColumn>
         </GridRow>
       </Grid>
